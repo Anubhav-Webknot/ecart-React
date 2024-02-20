@@ -6,11 +6,11 @@ const Navbar = ({size, setShow}) => {
     <nav>
         <div className="nav_box">
             <span className="my_shop" onClick={()=>setShow(true)}>
-                My Shopping
+                My E-cart
             </span>
             <div className="cart" onClick={()=>setShow(false)}>
                 <span>
-                    <i className="fas fa-cart-plus"></i>
+                <i class="far fa-shopping-cart"></i>
                 </span>
                 <span>{size}</span>
             </div>
